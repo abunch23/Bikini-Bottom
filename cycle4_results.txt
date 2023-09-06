@@ -1,0 +1,7 @@
+Cycle 4 Results:
+Total Packages Delivered: 2544
+Total Delivery Time: 18 hours
+Total Employee Cost: $2160
+Total Truck Cost: $60000
+Total Gas Cost: $1915
+Overall Total Cycle Cost: $64075

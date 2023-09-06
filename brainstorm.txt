@@ -1,0 +1,56 @@
+
+[] Step 1: Read input and process the data given within each cycle
+
+[] Step 2: Create Data Structures for Trucks, etc, and initialize tracking variables
+
+[] Step 3: Design an Algorithm to most efficiently deliver packages
+
+[] Step 4: Run the stimulation for 10 days
+
+[] Step 5: Process the results and provide a summary of costs,etc
+
+Algorithm Ideas: 
+- implement kruskal's algorithm to find the MST 
+- manually figure out how many trucks to use, etc
+
+
+============================== ~LOG~ ====================================
+Day 01- 08/13/2023:
+Alexandra set up some organizational stuff like variables
+
+Day 02- 08/16/2023:
+We decided to implement Kruskal's algorithm to find the MST to optimize the route. Subhi wrote a function to read the comma-delimited flat file and wrote classes for nodes (the addresses), edges, and a graph representing the entire bikini bottom.
+
+Day 03- 08/17/2023:
+Tried to do the file reading part and then the results display but needs a little more work so using try catch statements for now, I'll come back and fix it
+----note: I already did the file-reading part, it's in Optimization.java (going forth, we should look at the code that the other person has done in order to avoid repetition). I also implemented Kruskal's algorithm into the Graph Optimization class
+
+Day 04- 08/19/2023:
+Alexandra got rid of the double read file alrogirithm, will come back and work on combining the different aspects coded so far
+
+Day 05- 08/22/2023:
+Subhi modified kruskal's algorithm and brought the optimization to Main. I think it's best if we split bikini bottom into four equal parts, and have four trucks where each truck will do the sections of the MST that is within their part
+
+Day 06- 08/23/2023:
+Created a process cycle method which is where the optimization algorithm will be called to make things easier, moved the methods in cost calculator to the simulation file so it's more cohesive, and in main.java set up creating the simulation
+To do:
+Continue researching the truck thing
+Process cycle method needs more work
+
+Day 07- 08/25/2023:
+Created a basic split route method (above process cycle), just need to give it the entire route but not sure where to find that in optimization file. Rest will be pretty straight forward as calculate cost and time algorithms are already done. Also added more to process cycle method and calcuate delivery time method.
+
+Day 08- 08/27/2023:
+Finished splitting route between the trucks, wrote code for spongebob and patrick complexes, moved ReadFile function to simulation file
+
+Day 09- 08/28/2023:
+Did a lot of debugging and continued to work on process cycle function
+
+Day 10- 08/31/2023:
+Refined the method to split deliveries among trucks
+
+Day 11- 09/03/2023
+Worked on trying to fix issues with incorrect output, fixed issue with file 10
+
+Day 12- 09/04/2023:
+Fixed issue with cycle number output, calculated time for complexes, calcuated total costs

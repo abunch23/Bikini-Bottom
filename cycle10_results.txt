@@ -1,0 +1,7 @@
+Cycle 10 Results:
+Total Packages Delivered: 1947
+Total Delivery Time: 15 hours
+Total Employee Cost: $1680
+Total Truck Cost: $60000
+Total Gas Cost: $1915
+Overall Total Cycle Cost: $63595
